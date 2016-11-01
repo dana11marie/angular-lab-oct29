@@ -1,4 +1,4 @@
-var app = angular.module('myMod')
+var app = angular.module('myMod');
 
 app.controller('myCtrl', function($scope, myFactory) {
 
@@ -11,5 +11,5 @@ app.controller('myCtrl', function($scope, myFactory) {
   myFactory.setInfo($scope.paragraph);
 
   console.log($scope.paragraph);
-  }
+};
 });

@@ -9,17 +9,17 @@ app.factory('myFactory', function(){
     console.log(paragraph);
     myObj.inputParagraph = paragraph;
     console.log(myObj.inputParagraph);
-  }
+  };
 
   //  function to send data back to controller
   var getInfo = function() {
     console.log(myObj);
     return myObj;
-  }
+  };
 
   return {
     setInfo: setInfo,
     getInfo: getInfo
   };
 
-})
+});
