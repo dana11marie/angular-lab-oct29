@@ -6,7 +6,7 @@ app.controller('myCtrl', function($scope, myFactory) {
 
   $scope.totalInput = function() {
 
-  $scope.paragraph = ' ' + $scope.name + ' ' + $scope.city + ' ' + $scope.school + ' ' + $scope.work + ' ' + $scope.artist1 + ' ' + $scope.artist2 + ' ' + $scope.artist3;
+  $scope.paragraph = 'My name is ' + $scope.name + ' and I live in ' + $scope.city + '. I went to ' + $scope.school + ' and I now work at ' + $scope.work + '. My favorite musical artists are ' + $scope.artist1 + ', ' + $scope.artist2 + ' and ' + $scope.artist3 + '.';
 
   myFactory.setInfo($scope.paragraph);
 

@@ -2,7 +2,7 @@ var app = angular.module('myMod', ['ngRoute']);
 
 app.config(function($routeProvider){
   $routeProvider
-    .when('/input', {
+    .when('/', {
       controller: 'myCtrl',
       templateUrl: 'partials/input.html'
     })
