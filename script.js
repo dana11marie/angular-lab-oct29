@@ -2,11 +2,11 @@ var app = angular.module('myMod', ['ngRoute']);
 
 app.config(function($routeProvider){
   $routeProvider
-    .when('/', {
+    .when('/input', {
       controller: 'myCtrl',
       templateUrl: 'partials/input.html'
     })
-    .when('/output', {
+    .when('/display', {
       controller: 'myCtrlTwo',
       templateUrl: 'partials/display.html'
     })
